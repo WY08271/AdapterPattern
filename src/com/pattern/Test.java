@@ -7,8 +7,8 @@ public class Test {
         NoteBook nb = new NoteBook(three);
         nb.charge();
 
-//        three = new TwoPlugAdapterExtends();
-//        nb = new NoteBook(three);
-//        nb.charge();
+        three = new TwoPlugAdapterExtends();
+        nb = new NoteBook(three);
+        nb.charge();
     }
 }

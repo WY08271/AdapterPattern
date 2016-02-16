@@ -8,7 +8,7 @@ public class TwoPlugAdapter implements ThreePlugIf {
     }
     @Override
     public void powerWithThree() {
-        System.out.println("使用3孔插座");
+        System.out.print("组合模式:");
         plug.powerWithTwo();
     }
 }
